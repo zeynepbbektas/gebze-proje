@@ -1,0 +1,99 @@
+
+
+.yy {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    color: blue;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+
+ .hizmetler {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin-top: 120px;
+ }
+
+ .card {
+    width: 550px;
+    height: 200px;
+    border: 2px solid gray;
+    border-radius: 30px;
+    text-align: left;
+    margin-left: 70px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    margin-top: 50px;
+ }
+
+.container1 {
+    max-width: 960px;
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(11, 21, 208, 0.2);
+    overflow: hidden;
+    flex: 1 1 33rem;
+    text-align: center;
+    padding: 5rem 10rem;
+    margin-right: 5rem;
+
+}
+
+.iletisim{
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.map {
+    flex: 1 1 37rem;
+    width: 80%;
+    object-fit: cover;
+    margin-left: 5rem;
+    
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+
+}
+
+.text h3 {
+    font-weight: 400;
+    color: #2b5da4;
+}
+
+.hh {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 500;
+    color: #2b5da4;
+    margin-top: 80px;
+}
+
+
+.hizmetler .card-title {
+    color: #2b5da4;
+}
+
+

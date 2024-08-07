@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+	box-sizing: border-box;
+}
+
+
+.tiitle {
+    margin-top: 130px;
+    margin-left: 800px;
+    margin-bottom: 30px;
+    color: #2b5da4;
+    font-weight: 600;
+  }
+
+.cardss img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+h3 {
+	margin: 10px 0;
+	color: #2b5da4;
+    font-size: 20px;
+}
+
+h6 {
+	margin: 5px 0;
+}
+
+p {
+	font-size: 18px;
+	line-height: 21px;
+}
+
+.cardss {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+	margin-left: 350px;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
+.card-container {
+	background-color:  rgba(211, 211, 211, 0.347);
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+	color: #303030;
+	padding-top: 30px;
+	position: relative;
+	width: 350px;
+	max-width: 100%;
+	text-align: center;
+    margin: 20px;
+}
+
+.card-container .round {
+	border: 1px solid #2b5da4;
+	border-radius: 50%;
+	padding: 7px;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2b5da4;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.button-link:hover {
+    background-color: #74b0f0;
+}
+
+
+.fa-envelope {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.row h3 {
+    justify-content: center;
+    color: white;
+	margin-top: 200px;
+}
+
